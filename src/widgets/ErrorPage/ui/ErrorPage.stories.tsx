@@ -1,18 +1,19 @@
 import React from 'react';
-import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import { PageError } from './PageError';
+import { ErrorPage } from './ErrorPage';
 
 export default {
-    title: 'widget/PageError',
-    component: PageError,
+    title: 'widget/ErrorPage',
+    component: ErrorPage,
     argTypes: {
         backgroundColor: { control: 'color' },
     },
-} as ComponentMeta<typeof PageError>;
+} as ComponentMeta<typeof ErrorPage>;
 
-const Template: ComponentStory<typeof PageError> = (args) => <PageError {...args} />;
+const Template: ComponentStory<typeof ErrorPage> = (args) => <ErrorPage {...args} />;
 
 export const Light = Template.bind({});
 Light.args = {};

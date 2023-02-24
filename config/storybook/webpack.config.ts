@@ -1,13 +1,13 @@
 import webpack, { RuleSetRule } from 'webpack';
 import path from 'path';
+import { buildCssLoader } from '../build/loaders/buildCssLoader';
 import { BuildPaths } from '../build/types/config';
-import { buildCssLoaders } from '../build/loaders/buildCssLoaders';
 
 export default ({ config }: {config: webpack.Configuration}) => {
     const paths: BuildPaths = {
         build: '',
-        entry: '',
         html: '',
+        entry: '',
         src: path.resolve(__dirname, '..', '..', 'src'),
     };
     config.resolve.modules.push(paths.src);
@@ -18,6 +18,7 @@ export default ({ config }: {config: webpack.Configuration}) => {
         if (/svg/.test(rule.test as string)) {
             return { ...rule, exclude: /\.svg$/i };
         }
+
         return rule;
     });
 
@@ -25,7 +26,7 @@ export default ({ config }: {config: webpack.Configuration}) => {
         test: /\.svg$/,
         use: ['@svgr/webpack'],
     });
-    config.module.rules.push(buildCssLoaders(true));
+    config.module.rules.push(buildCssLoader(true));
 
     return config;
 };
