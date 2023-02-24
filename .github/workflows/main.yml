@@ -1,4 +1,4 @@
-name: linting, testing, building
+name: github-actions
 on:
   push:
     branches: [ master ]
