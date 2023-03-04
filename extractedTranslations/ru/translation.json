@@ -1,4 +1,6 @@
 {
+  "('Введите username')": "('Введите username')",
+  "('Введите пароль')": "('Введите пароль')",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
     " Architecto dolor ea iure minus nisi possimus sapiente similique sunt vel": {
       " Laudantium?": " Laudantium?"
@@ -7,6 +9,8 @@
   "decrement": "decrement",
   "increment": "increment",
   "throw error": "throw error",
+  "Введите username": "Введите username",
+  "Введите пароль": "Введите пароль",
   "Войти": "Войти",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
