@@ -6,5 +6,4 @@ export const StoreDecorator = (state: DeepPartial<StateSchema>) => (StoryCompone
     <StoreProvider initialState={state}>
         <StoryComponent />
     </StoreProvider>
-
 );

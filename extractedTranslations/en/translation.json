@@ -1,9 +1,7 @@
 {
-  "('Введите username')": "('Введите username')",
-  "('Введите пароль')": "('Введите пароль')",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
-    " Architecto dolor ea iure minus nisi possimus sapiente similique sunt vel": {
-      " Laudantium?": ""
+    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
+      "": ""
     }
   },
   "decrement": "decrement",
@@ -13,7 +11,7 @@
   "Введите пароль": "Введите пароль",
   "Войти": "Войти",
   "Вы ввели неверный логин или пароль": "",
-  "Выйти": "Выйти",
+  "Выйти": "",
   "Главная": "Главная",
   "Главная страница": "Главная страница",
   "О сайте": "О сайте",
@@ -22,6 +20,6 @@
   "Переключить": "Переключить",
   "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
   "Страница не найдена": "Страница не найдена",
-  "Форма авторизации": "Форма авторизации",
+  "Форма авторизации": "",
   "Язык": "Язык"
 }
