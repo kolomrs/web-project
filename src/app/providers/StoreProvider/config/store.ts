@@ -18,6 +18,7 @@ export function createReduxStore(
         counter: counterReducer,
         user: userReducer,
     };
+
     const reducerManager = createReducerManager(rootReducers);
 
     const extraArg: ThunkExtraArg = {
