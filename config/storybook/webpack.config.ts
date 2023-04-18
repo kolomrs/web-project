@@ -13,6 +13,14 @@ export default ({ config }: {config: webpack.Configuration}) => {
     config!.resolve!.modules!.push(paths.src);
     config!.resolve!.extensions!.push('.ts', '.tsx');
 
+    /* исправление ошибки storybook */
+    if (config!.resolve!.modules) {
+        config!.resolve!.modules = [
+            path.resolve(__dirname, '../../src'),
+            'node_modules',
+        ];
+    }
+
     // eslint-disable-next-line no-param-reassign
     // @ts-ignore
     config!.module!.rules = config.module!.rules!.map((rule: RuleSetRule) => {
