@@ -1,8 +1,8 @@
 import { classNames } from 'shared/lib/classNames/classNames';
-import { memo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
+import { memo, useCallback } from 'react';
 import { Input } from 'shared/ui/Input/Input';
-import { Button } from 'shared/ui/Button/Button';
+import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { useSelector } from 'react-redux';
 import { useAppDispatch } from 'shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { DynamicModuleLoader, ReducersList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
@@ -11,7 +11,7 @@ import { getAddCommentFormError, getAddCommentFormText } from '../../model/selec
 import cls from './AddCommentForm.module.scss';
 
 export interface AddCommentFormProps {
-    className?: string,
+    className?: string;
     onSendComment: (text: string) => void;
 }
 
@@ -45,13 +45,13 @@ const AddCommentForm = memo((props: AddCommentFormProps) => {
                     onChange={onCommentTextChange}
                 />
                 <Button
+                    theme={ButtonTheme.OUTLINE}
                     onClick={onSendHandler}
                 >
                     {t('Отправить')}
                 </Button>
             </div>
         </DynamicModuleLoader>
-
     );
 });
 
