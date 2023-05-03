@@ -14,11 +14,11 @@
   "articles": [
     {
       "id": "1",
-      "title": "Javascript news",
+      "title": "Javascript news СВЕЖАЯ",
       "subtitle": "Что нового в JS за 2022 год?",
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
-      "createdAt": "26.02.2022",
+      "createdAt": "26.04.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -88,8 +88,8 @@
       "id": "2",
       "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://arduinomaster.ru/wp-content/uploads/2018/01/python.jpg",
-      "views": 1022,
+      "img": "https://avatars.mds.yandex.net/i?id=4ec06560e05bf752cdccbb15bda9093c2739c515-9237081-images-thumbs&n=13",
+      "views": 5204,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
@@ -110,11 +110,11 @@
     },
     {
       "id": "3",
-      "title": "Kotlin news",
+      "title": "Kotlin news 2019",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://pluspng.com/img-png/kotlin-logo-png-kotlin-collection-function-techshots-medium-1200x630.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://miro.medium.com/max/1200/1*FNakkrty3kjOvNU8m5iQfw.png",
+      "views": 94002,
+      "createdAt": "26.02.2019",
       "userId": "1",
       "type": [
         "IT"
@@ -134,11 +134,11 @@
     },
     {
       "id": "4",
-      "title": "Python news",
+      "title": "Scala news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://arduinomaster.ru/wp-content/uploads/2018/01/python.jpg",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://yandex-images.clstorage.net/g56cry079/97db50PT/3W819iVzTeb_numQi8VYaZMzCDOoHieKxWQtQYDNxMTpYSZX3iYvADhaM95g08wdxVMBzAcUPWRH6YfZuvnytw1bVYcBt_n3Ojs9MU6F2FnDEt3nmQ_iKoC1iWRFnNRBnJQjcbj0HScuLdXpgsFOuSA2kexmtVlVMX8j6G_tp1ZfHOUmFMBOsp0OiAU7FXqpYyCu8dh9Ekrgxs-XJF-ikCsRlQEZhP-3fK1GWTLjf8uCNJDOl4Fp5BLMJNm-v_S0TR51hcXhXFN_LSnUWocJGUAi_KHoLHNIkRQfhyRvc0Gr8ARx2AVPhz3_9dvBko36QqVgrgaTiIVRjOVon8xXRZ_cN4fW431Sv344RfsUKpixAt3wCi8xKgMG7cbX7XOh-gOnQXmVT5YfTBaJguKsi-CXAW4GcUhWAA5VqK1OFifdjDcWFeAuoj5vuhZ6JOq6UzI-ggt9gwrBFT1EF6yTARhx9xBpZM_kjF3EiJIhLfsQlyPuhqIY9IBuFPtM7fUWvNwVR5VA7XI_rJpGSse6CXBh_vNavjIpUIb95ccfYYJpkQcxWlcfF_1-FpmCwYya0TdxfSXjeSXxzfTaffz2Fz8vVuRkws7zvD_ahJgFqbjj0D6xuB9BatHmH0QWDzKR-eO280u1LUYPbaeoQjL8OOBW0i7lAcpEgs1H-U0ex1aO_rTWF1IPsuwO-7Z6dRq7cmBcEtj_8ZlxBD_X1QyRQDkRJsPalqw0fX-lyQKBrPpCVBGOtyNJZHGeZciujbcWvw_X9_ThTrEcX7iXSIW5u5EAnjGIr3IYQOevJrTcQ6Ip4ZaByodd116Nhinx4px6EWTgLZWAG2SD36SJDbw1xg3f1rfFEc5DDG0JxNsWeRti4j5hiH1CKjLU3ESX3WNCGDIWAnok7Dctr1TbAeEPKqL0sI7ngpt04N4G6X_PFcRN_yW3hQC8sz3fyhaqJ-o5IXP8sEr_AxqQBR_EdH9TA",
+      "views": 10222,
+      "createdAt": "24.01.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -158,11 +158,11 @@
     },
     {
       "id": "5",
-      "title": "Kotlin news",
+      "title": "Golang news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://pluspng.com/img-png/kotlin-logo-png-kotlin-collection-function-techshots-medium-1200x630.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://yandex-images.clstorage.net/g56cry079/97db50PT/3W819iVzTeb_numQi8VYaZMzCDOoHieKxWQtQYBotNQ5cWMHGxMPUB3vZt5V9pnI9RNx-bIk_WFiqZeMypzCAl0eRcJxt-mXijudsQ6F2FnDEt3nmQ_iKoC1iWRFnNRBnJQjcbj0HScuLdXpgsFOuSA2kexmtVlVMX8j6G_tp1ZfHOUmFMBOsp0OiAU7FXqpYyCu8dh9Ekrgxs-XJF-ikCsRlQEZhP-3fK1GWTLjf8uCNJDOl4Fp5BLMJNm-v_S0TR51hcXhXFN_LSnUWocJGUAi_KHoLHNIkRQfhyRvc0Gr8ARx2AVPhz3_9dvBko36QqVgrgaTiIVRjOVon8xXRZ_cN4fW431Sv344RfsUKpixAt3wCi8xKgMG7cbX7XOh-gOnQXmVT5YfTBaJguKsi-CXAW4GcUhWAA5VqK1OFifdjDcWFeAuoj5vuhZ6JOq6UzI-ggt9gwrBFT1EF6yTARhx9xBpZM_kjF3EiJIhLfsQlyPuhqIY9IBuFPtM7fUWvNwVR5VA7XI_rJpGSse6CXBh_vNavjIpUIb95ccfYYJpkQcxWlcfF_1-FpmCwYya0TdxfSXjeSXxzfTaffz2Fz8vVuRkws7zvD_ahJgFqbjj0D6xuB9BatHmH0QWDzKR-eO280u1LUYPbaeoQjL8OOBW0i7lAcpEgs1H-U0ex1aO_rTWF1IPsuwO-7Z6dRq7cmBcEtj_8ZlxBD_X1QyRQDkRJsPalqw0fX-lyQKBrPpCVBGOtyNJZHGeZciujbcWvw_X9_ThTrEcX7iXSIW5u5EAnjGIr3IYQOevJrTcQ6Ip4ZaByodd116Nhinx4px6EWTgLZWAG2SD36SJDbw1xg3f1rfFEc5DDG0JxNsWeRti4j5hiH1CKjLU3ESX3WNCGDIWAnok7Dctr1TbAeEPKqL0sI7ngpt04N4G6X_PFcRN_yW3hQC8sz3fyhaqJ-o5IXP8sEr_AxqQBR_EdH9TA",
+      "views": 10222,
+      "createdAt": "26.02.2020",
       "userId": "1",
       "type": [
         "IT"
@@ -182,9 +182,9 @@
     },
     {
       "id": "6",
-      "title": "Python news",
+      "title": "Java news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://arduinomaster.ru/wp-content/uploads/2018/01/python.jpg",
+      "img": "https://avatars.mds.yandex.net/i?id=d2e29fe6c4a5915f5c6257e17a897b7b17158211-8497449-images-thumbs&n=13",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -206,11 +206,11 @@
     },
     {
       "id": "7",
-      "title": "Kotlin news",
+      "title": "Ruby news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://pluspng.com/img-png/kotlin-logo-png-kotlin-collection-function-techshots-medium-1200x630.png",
-      "views": 1022,
-      "createdAt": "26.02.2022",
+      "img": "https://avatars.mds.yandex.net/i?id=ca173a3a91ff318a0acefcd9045de560087d6cc8-9181971-images-thumbs&n=13",
+      "views": 100,
+      "createdAt": "21.02.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -230,10 +230,10 @@
     },
     {
       "id": "8",
-      "title": "Python news",
+      "title": "TypeScript news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://arduinomaster.ru/wp-content/uploads/2018/01/python.jpg",
-      "views": 1022,
+      "img": "https://avatars.mds.yandex.net/i?id=9980085f123891200f35d69a895fff00a4b61717-7084983-images-thumbs&n=13",
+      "views": 102222,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
@@ -256,7 +256,7 @@
       "id": "9",
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://pluspng.com/img-png/kotlin-logo-png-kotlin-collection-function-techshots-medium-1200x630.png",
+      "img": "https://cdn.hashnode.com/res/hashnode/image/upload/v1633953273389/WYI5p2EFu.webp",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -280,7 +280,7 @@
       "id": "10",
       "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://arduinomaster.ru/wp-content/uploads/2018/01/python.jpg",
+      "img": "https://avatars.mds.yandex.net/i?id=4ec06560e05bf752cdccbb15bda9093c2739c515-9237081-images-thumbs&n=13",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -304,7 +304,7 @@
       "id": "11",
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://pluspng.com/img-png/kotlin-logo-png-kotlin-collection-function-techshots-medium-1200x630.png",
+      "img": "https://cdn.hashnode.com/res/hashnode/image/upload/v1633953273389/WYI5p2EFu.webp",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -328,7 +328,7 @@
       "id": "12",
       "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://arduinomaster.ru/wp-content/uploads/2018/01/python.jpg",
+      "img": "https://avatars.mds.yandex.net/i?id=4ec06560e05bf752cdccbb15bda9093c2739c515-9237081-images-thumbs&n=13",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -352,7 +352,7 @@
       "id": "13",
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://pluspng.com/img-png/kotlin-logo-png-kotlin-collection-function-techshots-medium-1200x630.png",
+      "img": "https://cdn.hashnode.com/res/hashnode/image/upload/v1633953273389/WYI5p2EFu.webp",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -376,7 +376,7 @@
       "id": "14",
       "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://arduinomaster.ru/wp-content/uploads/2018/01/python.jpg",
+      "img": "https://avatars.mds.yandex.net/i?id=4ec06560e05bf752cdccbb15bda9093c2739c515-9237081-images-thumbs&n=13",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -400,7 +400,7 @@
       "id": "15",
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://pluspng.com/img-png/kotlin-logo-png-kotlin-collection-function-techshots-medium-1200x630.png",
+      "img": "https://cdn.hashnode.com/res/hashnode/image/upload/v1633953273389/WYI5p2EFu.webp",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -424,7 +424,7 @@
       "id": "16",
       "title": "Python news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://arduinomaster.ru/wp-content/uploads/2018/01/python.jpg",
+      "img": "https://avatars.mds.yandex.net/i?id=4ec06560e05bf752cdccbb15bda9093c2739c515-9237081-images-thumbs&n=13",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
@@ -448,12 +448,60 @@
       "id": "17",
       "title": "Kotlin news",
       "subtitle": "Что нового в JS за 2022 год?",
-      "img": "https://pluspng.com/img-png/kotlin-logo-png-kotlin-collection-function-techshots-medium-1200x630.png",
+      "img": "https://cdn.hashnode.com/res/hashnode/image/upload/v1633953273389/WYI5p2EFu.webp",
       "views": 1022,
       "createdAt": "26.02.2022",
       "userId": "1",
       "type": [
         "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Экономическая статья - ИНФЛЯЦИЯ!",
+      "subtitle": "Экономика",
+      "img": "https://www.mirea.ru/upload/iblock/7cf/vvp_rf2018_1.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "ECONOMICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Научная статья - Биология",
+      "subtitle": "БиологиЯ",
+      "img": "http://do.kit68.ru/pluginfile.php/4131/course/overviewfiles/biology.jpg",
+      "views": 1022,
+      "createdAt": "26.02.2022",
+      "userId": "1",
+      "type": [
+        "SCIENCE"
       ],
       "blocks": [
         {
@@ -568,9 +616,9 @@
   "profile": [
     {
       "id": "1",
-      "first": "valera",
-      "lastname": "m",
-      "age": 15,
+      "first": "jghwer",
+      "lastname": "asfewr",
+      "age": 465,
       "currency": "RUB",
       "country": "Belarus",
       "city": "Moscow",
@@ -579,9 +627,9 @@
     },
     {
       "id": "2",
-      "first": "roman k",
+      "first": "rk",
       "lastname": "asf",
-      "age": 25,
+      "age": 465,
       "currency": "RUB",
       "country": "Russia",
       "city": "Moscow",
