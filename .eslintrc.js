@@ -22,6 +22,7 @@ module.exports = {
         '@typescript-eslint',
         'i18next',
         'react-hooks',
+        'fsd-krs-plugin',
     ],
     rules: {
         'react/jsx-indent': [2, 4],
@@ -46,7 +47,9 @@ module.exports = {
             'error',
             {
                 markupOnly: true,
-                ignoreAttribute: ['data-testid', 'to', 'target'],
+                ignoreAttribute: [
+                    'as', 'role', 'data-testid', 'to', 'target', 'justify', 'align', 'direction', 'gap',
+                ],
             },
         ],
         'max-len': ['error', { ignoreComments: true, code: 130 }],
@@ -58,6 +61,7 @@ module.exports = {
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
         'arrow-body-style': 'off',
+        'fsd-krs-plugin/path-checker': 'error',
     },
     globals: {
         __IS_DEV__: true,

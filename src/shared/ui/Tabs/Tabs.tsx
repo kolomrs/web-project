@@ -1,6 +1,5 @@
 import { classNames } from 'shared/lib/classNames/classNames';
 import { memo, ReactNode, useCallback } from 'react';
-import { retry } from '@reduxjs/toolkit/query';
 import cls from './Tabs.module.scss';
 import { Card, CardTheme } from '../Card/Card';
 
