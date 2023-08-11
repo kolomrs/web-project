@@ -1,19 +1,19 @@
-import { classNames } from 'shared/lib/classNames/classNames';
 import { memo } from 'react';
-import { Text } from 'shared/ui/Text/Text';
 import { useTranslation } from 'react-i18next';
-import { VStack } from 'shared/ui/Stack';
-import { Comment } from '../../module/types/comment';
+import { classNames } from '@/shared/lib/classNames/classNames';
+import { Text } from '@/shared/ui/Text';
+import { VStack } from '@/shared/ui/Stack';
 import { CommentCard } from '../CommentCard/CommentCard';
+import { Comment } from '../../model/types/comment';
 
 interface CommentListProps {
     className?: string;
-    comment?: Comment[];
+    comments?: Comment[];
     isLoading?: boolean;
 }
 
 export const CommentList = memo((props: CommentListProps) => {
-    const { className, comment, isLoading } = props;
+    const { className, isLoading, comments } = props;
     const { t } = useTranslation();
 
     if (isLoading) {
@@ -28,15 +28,15 @@ export const CommentList = memo((props: CommentListProps) => {
 
     return (
         <VStack gap="16" max className={classNames('', {}, [className])}>
-            {comment?.length
-                ? comment.map((comment) => (
+            {comments?.length
+                ? comments.map((comment) => (
                     <CommentCard
-                        key={comment.id}
                         isLoading={isLoading}
                         comment={comment}
+                        key={comment.id}
                     />
                 ))
-                : <Text text={t('Коментарии отсутствуют')} />}
+                : <Text text={t('Комментарии отсутствуют')} />}
         </VStack>
     );
 });

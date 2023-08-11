@@ -1,5 +1,5 @@
-import { Profile } from 'entities/Profile';
-import { ValidateProfileError } from '../../types/editableProfileCardSchema';
+import { Profile } from '@/entities/Profile';
+import { ValidateProfileError } from '../../consts/consts';
 
 export const validateProfileData = (profile?: Profile) => {
     if (!profile) {
@@ -7,7 +7,7 @@ export const validateProfileData = (profile?: Profile) => {
     }
 
     const {
-        first, lastname, age, city, avatar, username,
+        first, lastname, age, country,
     } = profile;
 
     const errors: ValidateProfileError[] = [];
@@ -20,12 +20,8 @@ export const validateProfileData = (profile?: Profile) => {
         errors.push(ValidateProfileError.INCORRECT_AGE);
     }
 
-    if (!city) {
-        errors.push(ValidateProfileError.INCORRECT_CITY);
-    }
-
-    if (!username) {
-        errors.push(ValidateProfileError.INCORRECT_USERNAME);
+    if (!country) {
+        errors.push(ValidateProfileError.INCORRECT_COUNTRY);
     }
 
     return errors;

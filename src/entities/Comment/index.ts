@@ -1,3 +1,2 @@
 export { CommentList } from './ui/CommentList/CommentList';
-
-export { Comment } from './module/types/comment';
+export type { Comment } from './model/types/comment';

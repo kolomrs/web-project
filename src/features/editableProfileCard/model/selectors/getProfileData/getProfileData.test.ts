@@ -1,6 +1,6 @@
-import { StateSchema } from 'app/providers/StoreProvider';
-import { Country } from 'entities/Country';
-import { Currency } from 'entities/Currency';
+import { StateSchema } from '@/app/providers/StoreProvider';
+import { Country } from '@/entities/Country';
+import { Currency } from '@/entities/Currency';
 import { getProfileData } from './getProfileData';
 
 describe('getProfileData.test', () => {
@@ -8,8 +8,8 @@ describe('getProfileData.test', () => {
         const data = {
             username: 'admin',
             age: 22,
-            country: Country.Russia,
-            lastname: 'k',
+            country: Country.Ukraine,
+            lastname: 'ulbi tv',
             first: 'asd',
             city: 'asf',
             currency: Currency.USD,

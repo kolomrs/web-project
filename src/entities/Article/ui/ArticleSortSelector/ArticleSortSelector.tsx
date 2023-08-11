@@ -1,13 +1,13 @@
-import { classNames } from 'shared/lib/classNames/classNames';
-import { memo, useCallback, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Select, SelectOption } from 'shared/ui/Select/Select';
-import { SortOrder } from 'shared/types';
-import { ArticleSortField } from '../../model/types/article';
+import { memo, useMemo } from 'react';
+import { classNames } from '@/shared/lib/classNames/classNames';
+import { Select, SelectOption } from '@/shared/ui/Select';
+import { SortOrder } from '@/shared/types';
+import { ArticleSortField } from '../../model/consts/articleConsts';
 import cls from './ArticleSortSelector.module.scss';
 
 interface ArticleSortSelectorProps {
-    className?: string,
+    className?: string;
     sort: ArticleSortField;
     order: SortOrder;
     onChangeOrder: (newOrder: SortOrder) => void;
@@ -16,11 +16,7 @@ interface ArticleSortSelectorProps {
 
 export const ArticleSortSelector = memo((props: ArticleSortSelectorProps) => {
     const {
-        className,
-        sort,
-        onChangeSort,
-        onChangeOrder,
-        order,
+        className, onChangeOrder, onChangeSort, order, sort,
     } = props;
     const { t } = useTranslation();
 
@@ -43,25 +39,18 @@ export const ArticleSortSelector = memo((props: ArticleSortSelectorProps) => {
         {
             value: ArticleSortField.TITLE,
             content: t('названию'),
-        }, {
+        },
+        {
             value: ArticleSortField.VIEWS,
             content: t('просмотрам'),
         },
     ], [t]);
 
-    // const changeSortHandler = useCallback((newSort: string) => {
-    //     onChangeSort(newSort as ArticleSortField);
-    // }, [onChangeSort]);
-    //
-    // const changeOrderHandler = useCallback((newOrder: string) => {
-    //     onChangeOrder(newOrder as SortOrder);
-    // }, [onChangeOrder]);
-
     return (
         <div className={classNames(cls.ArticleSortSelector, {}, [className])}>
             <Select
                 options={sortFieldOptions}
-                label={t('Сортировать По')}
+                label={t('Сортировать ПО')}
                 value={sort}
                 onChange={onChangeSort}
             />
@@ -72,7 +61,6 @@ export const ArticleSortSelector = memo((props: ArticleSortSelectorProps) => {
                 onChange={onChangeOrder}
                 className={cls.order}
             />
-
         </div>
     );
 });

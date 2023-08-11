@@ -1,11 +1,11 @@
-import { classNames } from 'shared/lib/classNames/classNames';
-import { memo, useCallback, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { TabItem, Tabs } from 'shared/ui/Tabs/Tabs';
-import { ArticleType } from '../../model/types/article';
+import { memo, useCallback, useMemo } from 'react';
+import { classNames } from '@/shared/lib/classNames/classNames';
+import { TabItem, Tabs } from '@/shared/ui/Tabs';
+import { ArticleType } from '../../model/consts/articleConsts';
 
 interface ArticleTypeTabsProps {
-    className?: string,
+    className?: string;
     value: ArticleType;
     onChangeType: (type: ArticleType) => void;
 }

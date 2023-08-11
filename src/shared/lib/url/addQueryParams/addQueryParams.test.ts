@@ -1,7 +1,7 @@
 import { getQueryParams } from './addQueryParams';
 
 describe('shared/url/addQueryParams', () => {
-    test('test with one params', () => {
+    test('test with one param', () => {
         const params = getQueryParams({
             test: 'value',
         });
